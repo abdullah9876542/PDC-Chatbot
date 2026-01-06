@@ -1,4 +1,4 @@
-# Yako AI Chatbot
+# PDC Chatbot
 
 A modern AI chatbot interface that uses the Groq API for fast and efficient responses.
 
