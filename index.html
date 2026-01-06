@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PDC Chatbot - Your Smart AI Companion</title>
+    <meta name="description" content="PDC Chatbot is your smart AI companion that helps you chat smarter with real-time AI responses. Available 24/7 for intelligent conversations.">
+    <meta name="keywords" content="AI chatbot, AI companion, smart assistant, PDC Chatbot, AI conversations">
+    <meta name="author" content="Talha">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://PDC Chatbot-two.vercel.app/">
+    <meta property="og:title" content="PDC Chatbot - Your Smart AI Companion">
+    <meta property="og:description" content="Chat smarter with PDC Chatbot, your intelligent AI assistant available 24/7.">
+    <meta property="og:image" content="https://PDC Chatbot-two.vercel.app/favicon.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://PDC Chatbot-two.vercel.app/">
+    <meta property="twitter:title" content="PDC Chatbot - Your Smart AI Companion">
+    <meta property="twitter:description" content="Chat smarter with PDC Chatbot, your intelligent AI assistant available 24/7.">
+    <meta property="twitter:image" content="https://PDC Chatbot-two.vercel.app/favicon.png">
+
+    <meta name="google-site-verification" content="joKaS3o0DqymWpC9EVd7JyyyybkdF-Djj5hTw_EmWas" />
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="favicon.png">
+    
+    <!-- Canonical URL - Updated to use the actual domain -->
+    <link rel="canonical" href="https://PDC Chatbot-two.vercel.app/">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <header>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <!-- Full title for SEO -->
+                <div class="visually-hidden">PDC Chatbot</div>
+                <h1 class="logo">PDC Chatbot</h1>
+                <h2 class="tagline">Your Smart AI Companion</h2>
+                <p class="description">Chat smarter with real-time AI responses, available 24/7.</p>
+                <a href="#chat-section" class="cta-button">Start Chatting</a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- Chat Section -->
+        <section class="chat" id="chat-section">
+            <div class="container">
+                <h2 class="section-title visually-hidden">Chat with PDC Chatbot</h2>
+                <div class="chat-container">
+                    <div class="chat-messages" id="chat-messages">
+                        <div class="message bot">
+                            <p>👋 Hello! I'm PDC Chatbot. How can I help you today?</p>
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <label for="user-input" class="visually-hidden">Type your message</label>
+                        <input type="text" id="user-input" placeholder="Type your message here..." />
+                        <button onclick="sendMessage()" aria-label="Send message">Send</button>
+                    </div>
+                </div>
+                <div class="navigation-links">
+                    <a href="#features" class="nav-link">View Features</a>
+                    <a href="#about" class="nav-link">About PDC Chatbot</a>
+                    <a href="#technology" class="nav-link">Our Technology</a>
+                    <a href="#use-cases" class="nav-link">Use Cases</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                    <a href="#partners" class="nav-link">Our Partners</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <h2 class="section-title">Smart AI Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>Smart AI Conversations</h3>
+                        <p>Engage in intelligent conversations powered by advanced AI technology.</p>
+                        <a href="#chat-section" class="feature-link mobile-only">Try now</a>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Fast and Contextual Replies</h3>
+                        <p>Get instant, context-aware responses that understand your needs.</p>
+                        <a href="#chat-section" class="feature-link mobile-only">Try now</a>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Available 24/7</h3>
+                        <p>Access PDC Chatbot anytime, anywhere. Always ready to help.</p>
+                        <a href="#chat-section" class="feature-link mobile-only">Try now</a>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Lightweight and Private</h3>
+                        <p>Fast, efficient, and respectful of your privacy.</p>
+                        <a href="#chat-section" class="feature-link mobile-only">Try now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">About PDC Chatbot</h2>
+                <div class="about-content">
+                    <p><strong>PDC Chatbot - Your Smart AI Companion</strong> is a cutting-edge AI assistant designed to provide intelligent, helpful responses to your questions. Powered by advanced language models, PDC Chatbot offers a seamless conversational experience with real-time responses.</p>
+                    
+                    <p>Whether you need information, assistance with tasks, or just want to chat, this intelligent <strong>AI companion</strong> is here for you 24/7. Our AI is constantly improving to provide better, more accurate responses.</p>
+                    
+                    <p>Unlike other chatbots, PDC Chatbot combines the power of Groq's Llama 3 model with a lightweight interface, making it accessible on any device. The smart conversation system remembers context and provides personalized responses tailored to your needs.</p>
+                    
+                    <p>PDC Chatbot was developed with privacy in mind. Your conversations are handled with care, and we prioritize user experience above all else. The intuitive interface makes chatting with AI simple and enjoyable for users of all technical backgrounds.</p>
+                    
+                    <div class="about-links">
+                        <a href="#chat-section" class="about-link">Try PDC Chatbot Now</a>
+                        <a href="#features" class="about-link">Explore Features</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Technology Section -->
+        <section class="technology" id="technology">
+            <div class="container">
+                <h2 class="section-title">Technology Behind PDC Chatbot</h2>
+                <div class="tech-content">
+                    <p>PDC Chatbot leverages state-of-the-art natural language processing technology to understand and respond to your queries. Our <strong>Smart AI Companion</strong> uses advanced algorithms to process language, understand context, and generate human-like responses.</p>
+                    
+                    <p>The core of PDC Chatbot is built on Llama 3, one of the most powerful language models available today. This allows PDC Chatbot to understand complex questions, remember conversation history, and provide contextually relevant answers that feel natural and helpful.</p>
+                    
+                    <p>We've optimized PDC Chatbot for speed and efficiency, ensuring quick response times without sacrificing quality. The lightweight design means you can chat with your AI companion on any device, from desktop computers to mobile phones, without performance issues.</p>
+                    
+                    <div class="tech-links">
+                        <a href="#chat-section" class="tech-link">Try it yourself</a>
+                        <a href="#features" class="tech-link">See all features</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Use Cases Section -->
+        <section class="use-cases" id="use-cases">
+            <div class="container">
+                <h2 class="section-title">How People Use PDC Chatbot</h2>
+                <div class="use-cases-content">
+                    <div class="use-case">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Education & Learning</h3>
+                        <p>Students use PDC Chatbot to explore new topics, get explanations for complex concepts, and practice language skills through conversation. Teachers recommend PDC Chatbot for interactive learning experiences that engage students.</p>
+                        <a href="#chat-section" class="use-case-link">Try for education</a>
+                    </div>
+                    
+                    <div class="use-case">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Business & Productivity</h3>
+                        <p>Professionals use PDC Chatbot to brainstorm ideas, draft emails, summarize information, and get quick answers to work-related questions. PDC Chatbot helps boost productivity and creativity throughout the workday.</p>
+                        <a href="#chat-section" class="use-case-link">Try for business</a>
+                    </div>
+                    
+                    <div class="use-case">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming & Tech</h3>
+                        <p>Developers and tech enthusiasts use PDC Chatbot to debug code, learn new programming languages, understand technical concepts, and stay updated on the latest technology trends in AI and beyond.</p>
+                        <a href="#chat-section" class="use-case-link">Try for tech</a>
+                    </div>
+                    
+                    <div class="use-case">
+                        <i class="fas fa-comments"></i>
+                        <h3>Casual Conversation</h3>
+                        <p>Many users simply enjoy having thoughtful conversations with PDC Chatbot about any topic imaginable. From philosophical discussions to casual chats, PDC Chatbot provides engaging and meaningful interactions.</p>
+                        <a href="#chat-section" class="use-case-link">Start chatting</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-content">
+                    <div class="faq-item">
+                        <h3>What is PDC Chatbot?</h3>
+                        <p>PDC Chatbot is an intelligent AI companion powered by advanced language models. It's designed to have natural conversations, answer questions, provide assistance, and engage with users on a wide range of topics.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Is PDC Chatbot free to use?</h3>
+                        <p>Yes, PDC Chatbot is completely free to use. We believe in making AI accessible to everyone. Simply visit our website and start chatting with PDC Chatbot instantly.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>How does PDC Chatbot work?</h3>
+                        <p>PDC Chatbot uses state-of-the-art natural language processing powered by Groq's Llama 3 model. It analyzes your messages, understands context, and generates human-like responses in real-time.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Is my conversation with PDC Chatbot private?</h3>
+                        <p>Yes, we take privacy seriously. While conversations are processed to generate responses, we prioritize user privacy and security in all aspects of our service.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Can I use PDC Chatbot on my mobile device?</h3>
+                        <p>Absolutely! PDC Chatbot is fully responsive and works on smartphones, tablets, laptops, and desktop computers. No installation required - just visit our website.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Partners Section -->
+        <section class="partners" id="partners">
+            <div class="container">
+                <h2 class="section-title">Our Technology Partners</h2>
+                <div class="partners-content">
+                    <p>PDC Chatbot is built with cutting-edge technology from industry leaders. We're proud to be associated with:</p>
+                    <div class="partners-grid">
+                        <a href="https://groq.com/" target="_blank" rel="nofollow" class="partner-card">
+                            <i class="fas fa-microchip"></i>
+                            <h3>Groq AI</h3>
+                            <p>Powering our language model infrastructure</p>
+                        </a>
+                        <a href="https://vercel.com/" target="_blank" rel="nofollow" class="partner-card">
+                            <i class="fas fa-server"></i>
+                            <h3>Vercel</h3>
+                            <p>Our hosting and deployment platform</p>
+                        </a>
+                        <a href="https://expressjs.com/" target="_blank" rel="nofollow" class="partner-card">
+                            <i class="fas fa-code"></i>
+                            <h3>Express.js</h3>
+                            <p>Backend framework for our API</p>
+                        </a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank" rel="nofollow" class="partner-card">
+                            <i class="fas fa-globe"></i>
+                            <h3>Web APIs</h3>
+                            <p>Standards-compliant web technologies</p>
+                        </a>
+                        <a href="https://fontawesome.com/" target="_blank" rel="nofollow" class="partner-card">
+                            <i class="fas fa-icons"></i>
+                            <h3>Font Awesome</h3>
+                            <p>Beautiful icons throughout our interface</p>
+                        </a>
+                        <a href="https://fonts.google.com/" target="_blank" rel="nofollow" class="partner-card">
+                            <i class="fas fa-font"></i>
+                            <h3>Google Fonts</h3>
+                            <p>Typography that enhances readability</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PDC Chatbot AI</h3>
+                    <p>Your Smart AI Companion for intelligent conversations and real-time assistance.</p>
+                    <p>© 2025 PDC Chatbot</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#chat-section">Chat Now</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#technology">Technology</a></li>
+                        <li><a href="#use-cases">Use Cases</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#partners">Our Partners</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/PDC Chatbotchatbot/" target="_blank" class="social-link" aria-label="Instagram Profile"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/PDC Chatbotchatbot" target="_blank" class="social-link" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/talhax/" target="_blank" class="social-link" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Talhahax" target="_blank" class="social-link" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.linkedin.com/in/talhax/" target="_blank">Developer</a></li>
+                        <li><a href="https://github.com/Talhahax" target="_blank">GitHub</a></li>
+                        <li><a href="https://vercel.com" target="_blank" rel="nofollow">Powered by Vercel</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p class="copyright">Copyright © 2025 PDC Chatbot</p>
+        </div>
+    </footer>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "PDC Chatbot",
+        "description": "Your Smart AI Companion that helps you chat smarter with real-time AI responses",
+        "applicationCategory": "ChatBot",
+        "operatingSystem": "Web",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Talha"
+        },
+        "sameAs": [
+            "https://www.instagram.com/PDC Chatbotchatbot/",
+            "https://x.com/PDC Chatbotchatbot"
+        ]
+    }
+    </script>
+
+    <script src="script.js"></script>
+    
+    <!-- Social Sharing JavaScript -->
+    <script>
+        function shareOnFacebook() {
+            window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank');
+        }
+        
+        function shareOnLinkedIn() {
+            window.open('https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(window.location.href) + '&title=' + encodeURIComponent('PDC Chatbot - Your Smart AI Companion'), '_blank');
+        }
+    </script>
+</body>
+</html> 

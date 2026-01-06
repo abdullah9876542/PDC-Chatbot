@@ -1,0 +1,18 @@
+[
+  {
+    "question": "What is Yako?",
+    "answer": "Yako is an intelligent AI companion powered by advanced language models. It's designed to have natural conversations, answer questions, provide assistance, and engage with users on a wide range of topics."
+  },
+  {
+    "question": "Who created Yako?",
+    "answer": "Yako was developed by Talha as a modern, privacy-focused AI chatbot."
+  },
+  {
+    "question": "What technology does Yako use?",
+    "answer": "Yako uses Groq's Llama 3 model for fast, context-aware AI responses."
+  },
+  {
+    "question": "Is Yako free to use?",
+    "answer": "Yes, Yako is completely free to use."
+  }
+] 
